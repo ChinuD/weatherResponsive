@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cityInput">
+            <input type="text" placeholder="City Name" id="inputBox" >
+            <button id="searchButton"><img src="search.png" alt=""></button>
+        </div>
+        <div class="errorBox">
+            <h1>Error Occured</h1>
+        </div>
+        <div class="info">
+            <div class="infoBox">
+                <div class="weatherInfo">
+                    <p id="cityName">PUNE</p>
+                    <p id="weatherImg"><img src="clear.png" id="weatherchange"></p>
+                    <h2 id="description">Description</h2>
+                </div>
+            </div>
+    
+            <div class="temperatureBox">
+                <h1>Temperature</h1>
+                <br>
+                <h2>Current Temp: <br> <span id="currentTemp">22C</span></h2><br>
+                <h2>Maximum Temp: <br> <span id="maxTemp">30C</span></h2><br>
+                <h2>Minimum Temp: <br> <span id="minTemp">15C</span></h2><br>
+            </div>
+
+            <div class="pressureHumidity">
+                <h2>Pressure: <span id="pressure"> 1 atm</span></h2>
+                <img src="pressureIcon.png" alt="" height="40px"><br>
+                <h2>Humidity: <span id="humidity">10%</span></h2>
+                <img src="humidity.png"><br>
+                <h2>Visibility: <span id="visibility">1000m</span></h2>
+                <img src="visibilityIcon.jpg" height="40px"><br>
+            </div>
+
+            <div class="SunTime">
+                <h2>Sunrise: <br><span id="sunriseTime">6:00</span></h2>
+                <h2>Sunset: <br><span id="sunsetTime">18:00</span></h2>
+            </div>
+        
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
